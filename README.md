@@ -73,13 +73,13 @@ plt.axis('off')
 
 ### Display the result of Hough transform
 # Hough Transform Result
-
+``
 plt.imshow(cv2.cvtColor(output_image, cv2.COLOR_BGR2RGB))
 plt.title('Hough Transform - Line Detection')
 plt.axis('off')
-
-# Display all results
 plt.show()
+
+## Output
 ![image](https://github.com/user-attachments/assets/ffce0abd-0bf5-40d1-bf3d-3b6ff34817fb)
 
 # Result :
